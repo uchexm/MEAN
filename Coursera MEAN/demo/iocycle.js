@@ -5,7 +5,7 @@ let total = 0;
 // I/O Cycle
 fs.readFile("./index.js", () => {
   setTimeout(print1, 0);
-  setImmediate(print2); //set immediater gets priority in the I O cycle
+  setImmediate(print2); //set immediate gets priority in the I O cycle
 });
 
 let n = 1;

@@ -10,4 +10,4 @@ exports = names;
 module.exports.names = names;
 module.exports.scores = scores;
 
-console.log(module);
+console.log(exports);
