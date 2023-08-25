@@ -1,0 +1,19 @@
+{
+  "name": "coursera-mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uchexm/MEAN.git"
+  },
+  "author": "uchechi Nwaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uchexm/MEAN/issues"
+  },
+  "homepage": "https://github.com/uchexm/MEAN#readme"
+}

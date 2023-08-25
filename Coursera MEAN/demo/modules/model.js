@@ -6,8 +6,8 @@
 let names = ["Alex", "John", "Rody"];
 let scores = [29, 77, 99, 100];
 
-exports = names;
+// exports = names;
 module.exports.names = names;
 module.exports.scores = scores;
 
-console.log(exports);
+// console.log(exports);
