@@ -20,4 +20,13 @@ const server = http
     console.log(`http://localhost:${port}`);
   });
 
-const render = (res, file) => {};
+const render = (res, file) => {
+  fs.readFile(dir + file, (error, data) => {
+    if (error) {
+      res.writeHead(404, { "content-type": "text/html" });
+      res.end("<h1>404 File Not Found</h1>");
+    }
+    res.writeHead(200, { "Content-Type": "text/html" });
+    return res.end(data);
+  });
+};
