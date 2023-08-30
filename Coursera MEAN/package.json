@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/uchexm/MEAN/issues"
   },
-  "homepage": "https://github.com/uchexm/MEAN#readme"
+  "homepage": "https://github.com/uchexm/MEAN#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
