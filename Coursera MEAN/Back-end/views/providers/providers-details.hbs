@@ -38,20 +38,22 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row">12345</th>
-            <td>123 Main St</td>
-            <td>Suite 101</td>
-            <td>Racine</td>
-            <td>WI</td>
-            <td>53401</td>
-            <td>262-555-6789</td>
+            <th scope="row">{{id}}</th>
+            <th scope="row">{{company.address}}</th>
+            <th scope="row">{{company.address2}}</th>
+            <th scope="row">{{company.city}}</th>
+            <th scope="row">{{company.state}}</th>
+            <th scope="row">{{company.postal_code}}</th>
+            <th scope="row">{{company.phone}}</th>
+
           </tr>
         </tbody>
       </table>
     </div>
     <div class="row my-4">
       <div class="col-sm-12 text-center">
-        <a class="btn btn-secondary btn-lg" href="#">Edit Provider</a>
+        <a class="btn btn-secondary btn-lg" href="/providers/edit{{id}}">Edit
+          Provider</a>
       </div>
     </div>
   </div>
