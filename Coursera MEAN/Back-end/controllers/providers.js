@@ -89,7 +89,7 @@ module.exports.add = function (req, res) {
     },
   };
   //Add provider to list
-  provider.push(provider);
+  providers.push(provider);
 
   res.render("providers/providers-add", {
     // id: id,
