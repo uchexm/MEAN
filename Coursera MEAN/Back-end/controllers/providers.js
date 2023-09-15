@@ -97,3 +97,18 @@ module.exports.add = function (req, res) {
     // provider: provider,
   });
 };
+
+// DELETE a provider
+module.exports.delete = function (req, res) {
+  let id = req.params.id;
+  let provider = providers.find((provider) => provider.id == id);
+  let company = provider.company.company_name;
+  let idx = providers.indexOf(provider);
+  // Remove the idx
+  providers.splice(idx, 1);
+  res.render("providers/providers-delete", {
+    // id: id,
+    title: "Service Provider Delete",
+    company: company,
+  });
+};
